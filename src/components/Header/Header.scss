@@ -1,0 +1,32 @@
+.header-container {
+    text-align: center;
+
+    &--imagem{
+        height: 60vh;
+        background-image: url(../../assets/foto-header.png);
+        background-size: cover;
+        background-position: top;
+
+        .title {
+            color: $branco;
+            font-size: 5rem;
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-shadow: 0 5px 10px rgba(0,0,0,.6);
+        }
+    }
+
+    &--descrição{
+        height: 15%;
+        padding: 20px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .vagas-link {
+            padding-top: 10px;
+        }
+    }
+}
