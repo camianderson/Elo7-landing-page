@@ -1,11 +1,9 @@
-import Header from './components/Header/Header';
-
-import './App.scss';
+import Carreiras from "./pages/Carreiras/Carreiras";
 
 const App = () => {
   return (
     <div className="App">
-      <Header />
+      <Carreiras />
     </div>
   );
 }
