@@ -1,11 +1,16 @@
 import React from "react";
+import fotoCamila from '../../assets/camila.png';
+import fotoBeatriz from '../../assets/beatriz.png';
+import fotoGuto from '../../assets/guto.png';
+import fotoDavid from '../../assets/david.png';
+import videoCEO from '../../assets/placeholder-video.png'
 
 const Time = () => {
     return (
         <div className="time-container">
             <section className="time-container--CEO">
                 <div className="CEO-video">
-                    <img alt="video do CEO" src="../../assets/placeholder-video.png"></img>
+                    <img alt="video do CEO" src={videoCEO}/>
                 </div>
                 <div className="CEO-descrição">
                     <p className="tituloCEO">Palavas do CEO</p>
@@ -16,13 +21,13 @@ const Time = () => {
             <section className="time-container--contribuidores">
                 <h2 className="contribuidores-titulo">
                     <span>Conheça nosso time</span>
-                    <span>fora de série!</span>
+                    <span>fora de série</span>
                 </h2>
                 <section className="contribuidores-fotos">
-                    <img classname="foto" src="../../assets/camila.png"></img>
-                    <img classname="foto" src="../../assets/guto.png"></img>
-                    <img classname="foto" src="../../assets/david.png"></img>
-                    <img classname="foto" src="../../assets/beatriz.png"></img>
+                    <img alt="foto da Camila" className="foto" src={fotoCamila} ></img>
+                    <img alt="foto do Guto" className="foto" src={fotoGuto}></img>
+                    <img alt="foto do David" className="foto" src={fotoDavid}></img>
+                    <img alt="foto da Beatriz" className="foto" src={fotoBeatriz}></img>
                 </section>
             </section>
         </div>
