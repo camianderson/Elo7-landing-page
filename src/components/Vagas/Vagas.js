@@ -1,6 +1,7 @@
 import fotoBottom from '../../assets/foto-bottom.png';
+import Vaga from '../Vaga/Vaga';
 
-const Vagas = () => {
+const Vagas = ({vagas}) => {
     return (
         <div className='vagas-container' >
             <img alt='feira da elo7' src={fotoBottom}></img>
@@ -9,6 +10,7 @@ const Vagas = () => {
             </section>
             <section className='vagas-container--oportunidades'>
                 <h3>Desenvolvimento</h3>
+                <Vaga vagas={vagas}/>
             </section>
         </div>
     )
