@@ -1,6 +1,7 @@
 import Header from "../../components/Header/Header";
 import Time from "../../components/Time/Time";
 import Benefícios from "../../components/Benefícios/Benefícios";
+import Vagas from "../../components/Vagas/Vagas";
 
 const Carreiras = () => {
   return (
@@ -8,6 +9,7 @@ const Carreiras = () => {
       <Header />
       <Time />
       <Benefícios />
+      <Vagas />
     </div>
   );
 }
