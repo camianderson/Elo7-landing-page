@@ -4,15 +4,15 @@ const Vaga = ({vagas}) => {
     const listaDeVagas = vagasAtivas.map(vaga => {
         if(vaga.localizacao){
             return(
-                <div key={Math.random()}>
-                    <a href={vaga.link}>{vaga.cargo}</a>
+                <div className="vaga" key={Math.random()}>
+                    <a className="vaga-link" href={vaga.link}>{vaga.cargo}</a>
                     <p>{vaga.localizacao.bairro} - {vaga.localizacao.cidade}, {vaga.localizacao.pais}</p>
                 </div>
             )
         } else {
             return(
-                <div key={Math.random()}>
-                    <a href={vaga.link}>{vaga.cargo}</a>
+                <div className="vaga" key={Math.random()}>
+                    <a className="vaga-link" href={vaga.link}>{vaga.cargo}</a>
                     <p>Remoto</p>
                 </div>
             )
