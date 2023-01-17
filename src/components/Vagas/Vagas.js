@@ -4,13 +4,13 @@ import Vaga from '../Vaga/Vaga';
 const Vagas = ({vagas}) => {
     return (
         <div className='vagas-container' >
-            <img alt='feira da elo7' src={fotoBottom}></img>
+            <img className='foto-vagas' alt='feira da elo7' src={fotoBottom}></img>
             <section className='vagas-container--titulo'>
-                <h2>Vagas em aberto</h2>
+                <h2 className='titulo-vagas'>Vagas em aberto</h2>
             </section>
             <section className='vagas-container--oportunidades'>
-                <h3>Desenvolvimento</h3>
-                <Vaga vagas={vagas}/>
+                <h3 className='titulo-oportunidades'>Desenvolvimento</h3>
+                <Vaga className='vaga' vagas={vagas}/>
             </section>
         </div>
     )
