@@ -8,17 +8,20 @@ import Vagas from "../../components/Vagas/Vagas";
 
 const Carreiras = () => {
   const [dadosVagas, setDadosVagas] = useState([]);
+  const [erro, setErro] = useState(false)
 
   const getDadosVagas = () => {
     getVagas()
     .then(data => {
       setDadosVagas([...data.vagas])
     })
+    .catch(error => {
+      setErro(true)
+    })
   }
-
+  
   useEffect(() => {
     getDadosVagas()
-    console.log(dadosVagas)
   }, []);
 
   return (
@@ -26,7 +29,7 @@ const Carreiras = () => {
       <Header />
       <Time />
       <Benefícios />
-      <Vagas vagas={dadosVagas}/>
+      <Vagas vagas={dadosVagas} erro={erro}/>
     </div>
   );
 }

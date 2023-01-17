@@ -1,4 +1,5 @@
-const Vaga = ({vagas}) => {
+const Vaga = ({vagas, erro}) => {
+    
     const vagasAtivas = vagas.filter(vaga => vaga.ativa);
 
     const listaDeVagas = vagasAtivas.map(vaga => {
@@ -21,7 +22,19 @@ const Vaga = ({vagas}) => {
 
     return (
         <div className="vaga-container">
-            {listaDeVagas}
+            { erro ? 
+                <div className='alert error'>
+                    <p>Ops! Algo deu errado 🤪 ! Atualize a página!</p>
+                </div>
+                :
+                listaDeVagas===[] ? 
+                    <div>
+                        <p>Não temos nenhuma vaga disponível no momento.</p>
+                        <p>Obrigada por considerar o Elo7 para uma nova oportunidade.</p>
+                    </div> 
+                    :
+                    listaDeVagas 
+            }
         </div>
     )
 }
