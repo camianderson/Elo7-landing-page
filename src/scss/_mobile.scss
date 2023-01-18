@@ -1,0 +1,65 @@
+@media only screen and (max-width: 740px) {
+  .header-container {
+    &--imagem {
+      height: 40vh;
+    }
+
+    .titulo {
+      font-size: 3rem;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .time-container {
+    &--CEO {
+      flex-direction: column;
+      align-items: center;
+
+      .CEO-video {
+        width: 100%;
+        padding: 0px;
+      }
+
+      .CEO-descrição {
+        padding-top: 10px;
+
+        .tituloCEO,
+        .nomeCEO {
+          text-align: center;
+        }
+      }
+    }
+
+    &--contribuidores {
+      .contribuidores-fotos {
+        .foto {
+          padding-left: 8px;
+        }
+      }
+    }
+  }
+
+  .benefícios-container {
+    &--lista {
+      flex-direction: column;
+      align-items: center;
+
+      .sessão {
+        padding-top: 30px;
+        width: 80%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .vaga-container {
+    font-size: 1.3rem;
+
+    .vaga {
+      flex-direction: column;
+    }
+  }
+}

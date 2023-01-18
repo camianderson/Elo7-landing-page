@@ -1,18 +1,18 @@
-.vaga-container{
-    padding-top: 20px;
-    font-size: 1.5rem;
-    display: flex;
-    flex-direction: column;
+.vaga-container {
+  padding-top: 20px;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
 
-    .vaga{
-        display: flex;
-        justify-content: space-between;
-        padding-top: 10px;
-        color: $cinza-claro;
-        
-        .vaga-link{
-            text-decoration: none;
-            color: $verde;
-        }
+  .vaga {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    color: $cinza-claro;
+
+    .vaga-link {
+      text-decoration: none;
+      color: $verde;
     }
+  }
 }
