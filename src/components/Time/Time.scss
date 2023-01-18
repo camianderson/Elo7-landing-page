@@ -9,6 +9,7 @@
     justify-content: space-evenly;
 
     .CEO-video {
+      height: 100%;
       width: 53%;
       padding-right: 4rem;
     }
@@ -52,6 +53,7 @@
 
       .foto {
         height: 177px;
+        padding-top: 8px;
         &:not(:first-child) {
             padding-left: 8px;
           }
