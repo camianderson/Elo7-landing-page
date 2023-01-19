@@ -124,4 +124,15 @@ describe('Página Carreiras', () => {
         .should('contain', 'Desenvolvedor Java Junior')
         .should('contain', 'Remoto')
     })
+
+    it('Deve mostrar o erro se a API call não conseguir entregar os dados das vagas', () => {
+      cy.intercept('GET', 'http://www.mocky.io/v2/5d6fb6b1310000f89166087b', {
+      statusCode: 404 
+      })
+      cy.get('.vagas-container')
+        .children('.vagas-container--oportunidades')
+        .children('.vaga-container')
+        .should('exist')
+        .should('contain', 'Ops! Algo deu errado 🤪 ! Atualize a página!')
+    })
 })
