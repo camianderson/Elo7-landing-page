@@ -12,7 +12,7 @@ const Header = () => {
           quis lacinia in vehicula ut turpis.
         </p>
         <span className="separador">___________________________</span>
-        <a href="#" className="vagas-link btn">
+        <a href="#vagas" className="vagas-link btn">
           vagas em aberto &raquo;
         </a>
       </section>
