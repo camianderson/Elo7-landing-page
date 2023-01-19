@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Desafio de Programação Elo7 landing page.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Como parte do processo seletivo da Elo7 eu tive que desenvolver uma landing page contendo um resumo sobre o Elo7, como é trabalhar lá, alguns depoimentos e como é a cultura da empresa. No projeto também contem uma listagem das vagas em aberto que é alimentada por uma API que eles me forneceram.
 
-## Available Scripts
+### Table of Contents
+- [Especificações do Projeto](#especificações-do-projeto)
+- [Ilustrações](#ilustrações)
+- [Setup](#setup)
+- [Project Management](#project-management)
+- [Futuras Expanções](#futuras-expansões)
+- [Tecnologias](#tecnologias)
+- [Contribuidora](#contribuidora)
 
-In the project directory, you can run:
 
-### `npm start`
+## Especificações do Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A landing page foi criada com React em um projeto com metodologia ágil. O prazo de duas semanas foi dividido em duas Sprints, onde na primeira parte foi realizado O planejamento e uma parte da construção e na segunda a finalização, revisão, testes e deployment. O objetivo desse projeto foi demonstrar meu nível de conhecimento em HTML, CSS, organizacão e estrutura do código. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Para a realização desse projeto a equipe da Elo7 me forneceu:
+- Uma imagem báse para a criação da landing page
+- As imagens útilizadas na landing page
+- A API para obter os dados das vagas disponíveis
 
-### `npm test`
+Como eu não tive acesso há algumas informações eu assumi:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- A fonte utilizada foi a Lato
+- O tamanho padrão da fonte foi 16px
+- As cores útilizadas foram: #359c9c para o botão, #7d7873 para a fonte, #9e9d9c para o local de trabalho das vagas, #359c9c para a posição das vagas, #fdb933 para o nome do CEO e #fff para a cor Branca.
+- A resolução da tela foi de 860x600px 
 
-### `npm run build`
+## Ilustrações
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Landing page
+![Elo7 landing-page gif](https://media.giphy.com/media/EGgLotjAfbiMQKJrMv/giphy-downsized-large.gif)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Página responsiva
+![landing-page gif](https://media.giphy.com/media/VMTaT8s3F7LGFMjhkH/giphy-downsized-large.gif)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Testes
 
-### `npm run eject`
+![Testes Elo7 landing page](https://user-images.githubusercontent.com/98124157/213552532-f2f86797-593c-4628-b11b-18b6094242f6.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- No seu terminal, clone o repositório `git@github.com:camianderson/Elo7-landing-page.git`
+- Abra a pasta que contem o projeto
+- Instale os pacotes NPM - `npm install`
+- Digite `npm start`. Esse comando irá abrir o projeto em develop mode.
+- abra o link `http://localhost:3000` para ver o projeto no seu browser.
+- NOTA: Quando você quiser sair, digite ` Control + C ` in no seu terminal. Esse comando assegurará que o servidor será desconectado.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Project Management
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Utilizei um [Project Board](https://github.com/users/camianderson/projects/8) aqui no GitHub para desenvolver o wireframe, a arquitetura e os passos para criar a landing page durante as sprints. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Futuras Expansões
 
-### Code Splitting
+- Adicionar mais vagas
+- Criar uma página secundária com detalhes das vagas
+- Optimizar as imagens para uma performace melhor 
+           
+## Tecnologias
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- React
+- Cypress
+- ES6 Javascript
+- SCSS / SASS
+- HTML semântico
+- Fetch API
+- Hooks
 
-### Analyzing the Bundle Size
+## Contribuidora
+[Camila Anderson](https://www.linkedin.com/in/camianderson/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**[Back to top](#table-of-contents)**
