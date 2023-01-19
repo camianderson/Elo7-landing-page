@@ -2,19 +2,19 @@
   text-align: center;
 
   &--imagem {
-    height: 60vh;
+    height: 45vh;
     background-image: url(../../assets/foto-header.png);
     background-size: cover;
-    background-position: top;
+    background-position:center;
 
     .titulo {
       color: $branco;
-      font-size: 5rem;
+      font-size: 4rem;
       position: absolute;
-      top: 40%;
+      top: 30%;
       left: 50%;
       transform: translate(-50%, -50%);
-      text-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+      text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.6);
     }
   }
 
@@ -24,7 +24,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 
     .vagas-link {
       padding-top: 10px;
