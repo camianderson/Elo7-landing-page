@@ -1,6 +1,10 @@
 describe('Página Carreiras', () => {
   beforeEach(() => {
     cy.visit('http://localhost:3000/')
+    cy.intercept('GET', 'http://www.mocky.io/v2/5d6fb6b1310000f89166087b', {
+      fixture: "data-vagas",
+      statusCode: 200 
+    })
   })
   it('Deve acessar a página de carreiras', () => {
     cy.visit('http://localhost:3000/')
@@ -117,24 +121,6 @@ describe('Página Carreiras', () => {
         .should('exist')
         .children('.vaga')
         .eq(1)
-        .should('contain', 'Desenvolvedor Java Senior')
-        .should('contain', 'Vila Olímpia - São Paulo, Brasil')
-
-      cy.get('.vagas-container')
-        .children('.vagas-container--oportunidades')
-        .children('.vaga-container')
-        .should('exist')
-        .children('.vaga')
-        .eq(2)
-        .should('contain', 'Desenvolvedor Front end')
-        .should('contain', 'Vila Olímpia - São Paulo, Brasil')
-
-      cy.get('.vagas-container')
-        .children('.vagas-container--oportunidades')
-        .children('.vaga-container')
-        .should('exist')
-        .children('.vaga')
-        .eq(3)
         .should('contain', 'Desenvolvedor Java Junior')
         .should('contain', 'Remoto')
     })
