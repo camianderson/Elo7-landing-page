@@ -11,7 +11,7 @@ const Time = () => {
       <section className="time-container--CEO">
         <img className="CEO-video" alt="video do CEO" src={videoCEO} />
         <div className="CEO-descrição">
-          <p className="tituloCEO">Palavas do CEO</p>
+          <p className="tituloCEO">Palavras do CEO</p>
           <p className="nomeCEO">Carlos Curioni</p>
           <p className="textoCEO">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisque ut
