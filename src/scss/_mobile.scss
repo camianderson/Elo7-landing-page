@@ -1,3 +1,16 @@
+@media only screen and (max-width: 850px) {
+  .time-container {
+    &--contribuidores {
+      .contribuidores-fotos {
+        justify-content: center;
+        .foto {
+          padding-left: 8px;
+        }
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 740px) {
   .header-container {
     &--imagem {
