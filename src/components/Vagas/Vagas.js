@@ -4,7 +4,7 @@ import Vaga from "../Vaga/Vaga";
 const Vagas = ({ vagas, erro }) => {
   return (
     <div className="vagas-container" id="vagas">
-      <img className="foto-vagas" alt="feira da elo7" src={fotoBottom}></img>
+      <img className="foto-vagas" alt="feira da elo7" src={fotoBottom} />
       <h2 className="vagas-container--titulo">Vagas em aberto</h2>
       <section className="vagas-container--oportunidades">
         <h3 className="titulo-oportunidades">Desenvolvimento</h3>
