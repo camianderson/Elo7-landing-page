@@ -5,6 +5,7 @@ Como parte do processo seletivo da Elo7 eu tive que desenvolver uma landing page
 ### Table of Contents
 - [Especificações do Projeto](#especificações-do-projeto)
 - [Ilustrações](#ilustrações)
+- [Site Deployed](#site-deployed)
 - [Setup](#setup)
 - [Project Management](#project-management)
 - [Futuras Expanções](#futuras-expansões)
@@ -40,6 +41,9 @@ Como eu não tive acesso há algumas informações eu assumi:
 
 ![Testes Elo7 landing page](https://user-images.githubusercontent.com/98124157/213552532-f2f86797-593c-4628-b11b-18b6094242f6.png)
 
+## Site Deployed
+
+Clique [aqui](https://elo7-landing-page.herokuapp.com/) para ir para o site do projeto deployed.
 
 ## Setup
 
