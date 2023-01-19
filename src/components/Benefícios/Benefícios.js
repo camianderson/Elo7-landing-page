@@ -12,7 +12,7 @@ const Benefícios = () => {
             className="ben-imagem"
             alt="emoji rosto sorrindo"
             src={qualidade}
-          ></img>
+          />
           <h2 className="sessão-titulo">qualidade de vida</h2>
           <p>
             Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Quisque
@@ -25,7 +25,7 @@ const Benefícios = () => {
             className="ben-imagem"
             alt="emoji mão com idicador e mindinho para cima"
             src={ambiente}
-          ></img>
+          />
           <h2 className="sessão-titulo">ambiente descontraído</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut
@@ -39,7 +39,7 @@ const Benefícios = () => {
             className="ben-imagem"
             alt="emoji paleta de pintor"
             src={atividades}
-          ></img>
+          />
           <h2 className="sessão-titulo">atividades extras</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut

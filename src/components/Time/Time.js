@@ -27,10 +27,10 @@ const Time = () => {
           <span>fora de série</span>
         </h2>
         <section className="contribuidores-fotos">
-          <img alt="foto da Camila" className="foto" src={fotoCamila}></img>
-          <img alt="foto do Guto" className="foto" src={fotoGuto}></img>
-          <img alt="foto do David" className="foto" src={fotoDavid}></img>
-          <img alt="foto da Beatriz" className="foto" src={fotoBeatriz}></img>
+          <img alt="foto da Camila" className="foto" src={fotoCamila} />
+          <img alt="foto do Guto" className="foto" src={fotoGuto} />
+          <img alt="foto do David" className="foto" src={fotoDavid} />
+          <img alt="foto da Beatriz" className="foto" src={fotoBeatriz} />
         </section>
       </section>
     </div>
